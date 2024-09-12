@@ -1,0 +1,14 @@
+.ekmalzemeler {
+    padding: 5px 40px;
+}
+
+.malzemeler-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.aciklama {
+    padding-left: 0;
+    padding-bottom: 20px;
+}

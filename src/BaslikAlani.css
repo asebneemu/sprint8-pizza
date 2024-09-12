@@ -1,0 +1,31 @@
+header {
+    background-color: #CE2829; 
+    /* renk belirlendi, */
+    max-width: 540px;
+    height: 207;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+header div {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+}
+header div a {
+    text-decoration: none;
+    color: white;
+}
+
+header div a:hover {
+    color: white;
+}

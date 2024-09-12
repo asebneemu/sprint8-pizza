@@ -1,0 +1,15 @@
+.secenekler {
+    padding: 10px 40px;
+    display: flex;
+}
+
+.boyut {
+    margin-right: 40%;
+}
+.boyut label {
+    display: block;
+    padding-bottom: 10px;
+}
+select {
+    padding: 10px;
+}
