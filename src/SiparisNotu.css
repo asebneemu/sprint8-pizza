@@ -11,6 +11,12 @@
 textarea {
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid rgb(195, 195, 195);
 }
 
+.custom-line {
+    border: none; /* Varsayılan kenarlığı kaldırır */
+    border-top: 1px solid #c2c1c1; /* Çizgi rengi ve kalınlığı */
+    width: 100%; /* Çizginin genişliğini %80 yapar */
+    margin: 0 auto; /* Çizgiyi ortalar */
+    margin-top: 50px;
+}

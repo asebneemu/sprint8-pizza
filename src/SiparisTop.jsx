@@ -1,11 +1,12 @@
 import React from "react";
+import "./SiparisTop.css"
 
-function SiparisTop({secimler,fiyat}) {
+function SiparisTop() {
     return (
         <div className="SiparisTop">
             <h4>Siparis Toplamı</h4>
-            <p>Seçimler: <span>{secimler.length*5}</span></p>
-            <p>Toplam: <span className="toplam">{toplamFiyat}</span></p>
+            <p>Seçimler <span>25</span></p>
+            <p style={{color:"red"}}>Toplam <span className="toplam">110.50</span></p>
         </div>
     )
 }

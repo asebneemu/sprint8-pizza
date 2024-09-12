@@ -6,6 +6,9 @@ import EkMalzemeler from "./EkMalzemeler"
 
 import "./App.css"
 import SiparisNotu from './SiparisNotu'
+import SiparisTop from './SiparisTop'
+import Miktar from "./Miktar"
+
 
 
 function App() {
@@ -18,6 +21,8 @@ function App() {
         <Secenekler />
         <EkMalzemeler />
         <SiparisNotu />
+        <SiparisTop />
+        <Miktar />
 
       </main>
     </div>
