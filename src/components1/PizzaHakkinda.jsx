@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import "./PizzaHakkinda.css";
 
-function PizzaHakkinda() {
+function PizzaHakkinda({setFiyat}) {
     const fiyat="85.50";
+    React.useEffect(() => {
+        setFiyat(parseFloat(fiyat)); // Fiyatı güncelledim.
+    }, [setFiyat]);
 
     return (
         <div>

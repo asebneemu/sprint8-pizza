@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./EkMalzemeler.css"
-function EkMalzemeler() {
+function EkMalzemeler({setSecilenMalzemeSayisi}) {
     const [secilenMalzeme, setSecilenMalzeme] = useState([]);
 
     const malzemeler = ["Pepperoni", "Sosis", "Kanada Jambonu", "Tavuk Izgara", "Sogan", "Domates", "Misir", "Sucuk", "Jalepeno", "Sarmisak", "Biber", "Kabak", "Ananas"];
@@ -19,6 +19,9 @@ function EkMalzemeler() {
             }
         })
     }
+    React.useEffect(() => {
+        setSecilenMalzemeSayisi(secilenMalzeme.length); // Malzeme sayısını güncelledim
+    }, [secilenMalzeme, setSecilenMalzemeSayisi]);
 
     return (
         <div className="ekmalzemeler">

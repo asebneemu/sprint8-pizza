@@ -1,0 +1,27 @@
+.menu-section {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+}
+
+.menu-item img {
+    padding-left: 25px;
+    width: 40px;
+}
+.menu-item p {
+    font-size: 16px;
+}

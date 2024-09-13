@@ -1,0 +1,78 @@
+.siparisver-section {
+    background-color: #FAF7F2;
+    max-width: 540px;
+}
+.siparisver-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    align-content:center;
+    padding: 3rem;
+}
+.siparisver-content .item1 {
+    padding-left: 2.5rem;
+    align-content: center;
+    width: 25rem;
+    height: 23rem;
+    margin: 0;
+    border-radius: 1.7rem;
+    background-color:#CE2829;
+    background-image: url("Assets/Iteration-2-aseets/cta/kart-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.siparisver-item h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+}
+.siparisver-item p {
+    margin: 1.5rem 0 3rem 0;
+    font-size: 1.3rem;
+    color: white;
+}
+.siparisver-item .btn {
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    color: #CE2829;
+    font-size: 1rem;
+    padding: 1.3rem 2.6rem;
+}
+
+.siparisver-content .item2 {
+    padding-left: 2.5rem;
+    align-content: center;
+    width: 25rem;
+    height: 18rem;
+    margin-top: 3rem;
+    border-radius: 1.7rem;
+    background-color: #292929;
+    background-position: right;
+    background-image: url("Assets/Iteration-2-aseets/cta/kart-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item2 h2 {
+    font-size: 2rem;
+    color: white;
+    padding-left: 0;
+}
+.siparisver-content .item3 {
+    padding-left: 2.5rem;
+    align-content: center;
+    width: 25rem;
+    height: 18rem;
+    margin-top: 3rem;
+    border-radius: 1.7rem;
+    background-color: #fae8c9;
+    background-position: right 10px bottom 10px, right center;
+    background-image: url("Assets/Iteration-2-aseets/cta/kutu4.png"),url("Assets/Iteration-2-aseets/cta/kutu3.png");
+    background-repeat: no-repeat;
+    background-size: 350px, cover;
+}
+.item3 h2 {
+    font-size: 2rem;
+    padding: 0;
+}

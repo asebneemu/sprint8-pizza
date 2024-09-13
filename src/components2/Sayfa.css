@@ -1,7 +1,7 @@
 .girisAlani {
     display: flex;
     flex-direction: column;
-    padding: 40px 40px;
+    padding: 80px 40px;
     background-color: #CE2829;
     text-align: center;
     align-items: center;
@@ -42,4 +42,9 @@ ustResim {
     background-image: url("src/assets/banner.png");
     background-position: center;
     background-size: cover;
+}
+
+.SiparisAlindi {
+    margin-top: 10rem;
+    font-size: 70px;
 }
