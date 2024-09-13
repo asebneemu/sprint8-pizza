@@ -1,0 +1,45 @@
+.girisAlani {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    background-color: #CE2829;
+    text-align: center;
+    align-items: center;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.girisAlani button {
+    background-color: #FDC913;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px 0;
+    width: 50%;
+    margin-bottom: 25rem;
+
+}
+.girisAlani button:hover {
+    text-decoration: none;
+    border: none;
+}
+.girisAlani div p {
+    font-size: 70px;
+}
+
+ustResim {
+    margin: 15px;
+    margin-bottom: 4rem;
+}
+.altResim {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    background-image: url("src/assets/banner.png");
+    background-position: center;
+    background-size: cover;
+}
