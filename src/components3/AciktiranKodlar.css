@@ -1,0 +1,53 @@
+.menu-alt-section {
+    max-width: 540px;
+    margin: 3rem auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-alt-content h2 {
+    font-size: 2rem;
+    font-family: "Satisfy";
+    margin: 0;
+    text-align: center;
+    color: #CE2829;
+}
+
+.menu-alt-content p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.menu-alt-items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.menu-alt-item {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    width: 15%;
+    border: none;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-alt-item:hover {
+    background-color: #292929;
+    color: white;
+    padding: 1rem 7.2rem;
+
+}

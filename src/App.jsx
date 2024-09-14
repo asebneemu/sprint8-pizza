@@ -10,6 +10,7 @@ import SiparisTop from './components1/SiparisTop'
 import MiktarAyari from "./components1/MiktarAyari"
 import YiyecekCesitleri from './components3/YiyecekCesitleri'
 import UcluReklam from "./components3/UcluReklam"
+import AciktiranKodlar from './components3/AciktiranKodlar'
 
 
 
@@ -36,6 +37,7 @@ function App() {
         <Sayfa siparisVerildi={siparisVerildi} />
         <YiyecekCesitleri />
         <UcluReklam />
+        <AciktiranKodlar />
       </div>
     </div>
   )
